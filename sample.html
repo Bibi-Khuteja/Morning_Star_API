@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-box ">
+        <form class="search-bar light" id="search_form" action="https://in.search.yahoo.com//search" autocomplete="off" target="_blank">
+           <div class="search-tab">
+             <input type="text" name="q" id="query_input" placeholder="Search or type a URL">
+              <button class="icon icon-search border-0" type="submit"></button>
+           </div>
+        </form>
+
+        <div class="mt-3 cards-container">
+            <div class="row mb-4">
+               <div class="col-md-6 align-self-center"> <h1 class="main-title mb-0">Morning_Star News</h1></div>
+                <div class="col-md-6 text-right"> <img src="images/refresh.svg" class=" refresh-stocks-btn" id="refresh_stocks"/></div>
+              
+            
+            </div>
+          <div class="row card-deck text-center" id="render_stocks">
+          </div>
+          <div>
+              <a class="float-right mt-3 show_more" href="https://news.yahoo.com/" target="_blank">Show more </a>
+          </div>
+        </div>
+    </div>    
+    
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sample.js"></script>
+</body>
+</html>
